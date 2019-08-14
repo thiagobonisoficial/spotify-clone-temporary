@@ -16,11 +16,8 @@ export const List = styled.ul`
   ${Scrollbar}
 `;
 
-export const Item = styled.li`
-  padding: 0 0 0.5rem 1.5rem;
-`;
-
 export const Hyperlink = styled(NavLink)`
+  padding: 0 0 0 1.5rem;
   font-family: "Circular-Bold";
   font-size: 0.875rem;
   color: ${Color.greyBlack};
@@ -28,4 +25,14 @@ export const Hyperlink = styled(NavLink)`
   &:hover {
     color: white;
   }
+
+  &.active {
+    padding: 0 0 0 1.3rem;
+    color: white;
+    border-left: 4px ${Color.greenLight2} solid;
+  }
+`;
+
+export const Item = styled.li`
+  padding: 0 0 0.5rem 0;
 `;
