@@ -99,6 +99,9 @@ class Collection extends Component {
               {this.state.newReleases.map(album => {
                 return (
                   <MusicAlbumOutdoor
+                    key={`musicAlbumOutdoor-${album.musicTitle}-${
+                      album.musicAuthor
+                    }`}
                     avatarUrl={album.avatarUL}
                     musicTitle={album.musicTitle}
                     musicAuthor={album.musicAuthor}
