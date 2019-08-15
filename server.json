@@ -6,70 +6,77 @@
       "password": "123456"
     }
   ],
-  "albums": [
+  "albums": {
+    "newReleases": [
+      {
+        "id": "d6dbc713-e830-4561-806f-f013ad6920b6",
+        "title": "Charlie Brown JR",
+        "subtitle": "Short Price... Long Term",
+        "record": "Virgin",
+        "production": "Rick Bonadio, Tadeu Patola",
+        "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/charlie-brown-jr/d6dbc713-e830-4561-806f-f013ad6920b6.jpg?raw=true"
+      },
+      {
+        "id": "92d4c4e5-18f4-48f0-84e8-ca10238db3ba",
+        "title": "The Beatles",
+        "subtitle": "Abbey Road",
+        "record": "Apple Records",
+        "production": "George Martin",
+        "thumbnail": ""
+      }
+    ],
+    "recentlyPlayed": []
+  },
+  "songs": [
     {
-      "id": "d6dbc713-e830-4561-806f-f013ad6920b6",
-      "title": "Charlie Brown JR",
-      "subtitle": "Short Price... Long Term",
-      "authors": "Chorão, Champignon, Pelado",
-      "thumbnail": "",
-      "songs": [
+      "albumID": "d6dbc713-e830-4561-806f-f013ad6920b6",
+      "albumSongs": [
         {
           "id": "af055130-2850-4b6a-bc26-d79b433a4090",
           "title": "Squid Eyes",
           "authors": "Chorão, Champignon, Pelado",
           "file": "",
-          "thumbnail": "",
-          "albumID": "d6dbc713-e830-4561-806f-f013ad6920b6"
+          "thumbnail": "https://raw.githubusercontent.com/thiagodebonisoficial/spotify-clone/frontend-v.1.0.0/src/assets/imgs/songs/charlie-brown-jr/af055130-2850-4b6a-bc26-d79b433a4090.jpg"
         },
         {
           "id": "4861e780-1a74-49c5-8370-7e8ae35dc1fe",
           "title": "Take you from here",
           "authors": "Chorão",
           "file": "",
-          "thumbnail": "",
-          "albumID": "d6dbc713-e830-4561-806f-f013ad6920b6"
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/charlie-brown-jr/d6dbc713-e830-4561-806f-f013ad6920b6.jpg?raw=true"
         },
         {
           "id": "6839fa2a-6a5d-4e51-b8a4-f81bb0fb88f9",
           "title": "The Price",
           "authors": "Champignon, Chorão",
           "file": "",
-          "thumbnail": "",
-          "albumID": "d6dbc713-e830-4561-806f-f013ad6920b6"
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/charlie-brown-jr/d6dbc713-e830-4561-806f-f013ad6920b6.jpg?raw=true"
         }
       ]
     },
     {
-      "id": "92d4c4e5-18f4-48f0-84e8-ca10238db3ba",
-      "title": "The Beatles",
-      "subtitle": "Abbey Road",
-      "authors": "Apple Records, George Martin",
-      "thumbnail": "",
-      "songs": [
+      "albumID": "92d4c4e5-18f4-48f0-84e8-ca10238db3ba",
+      "albumSongs": [
         {
           "id": "35e9041b-b996-40d7-b448-2053c46ac902",
           "title": "Come Together",
           "authors": "John Lennon",
           "file": "",
-          "thumbnail": "",
-          "albumID": "92d4c4e5-18f4-48f0-84e8-ca10238db3ba"
+          "thumbnail": ""
         },
         {
           "id": "570ad31e-f2c8-488b-a840-72e2ef56cacc",
           "title": "Something",
           "authors": "George Harrison",
           "file": "",
-          "thumbnail": "",
-          "albumID": "92d4c4e5-18f4-48f0-84e8-ca10238db3ba"
+          "thumbnail": ""
         },
         {
           "id": "6c7920c4-a53c-49e9-bc03-bb162c7f33e0",
           "title": "Maxwell's Silver Hammer",
           "authors": "Paul McCartney",
           "file": "",
-          "thumbnail": "",
-          "albumID": "92d4c4e5-18f4-48f0-84e8-ca10238db3ba"
+          "thumbnail": ""
         }
       ]
     }

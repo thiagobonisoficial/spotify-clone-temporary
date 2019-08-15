@@ -20,16 +20,16 @@ function hidePlay(e) {
   e.currentTarget.querySelector("button").style.display = "none";
 }
 
-const MusicAlbumOutdoor = ({ avatarUrl, musicTitle, musicAuthor }) => {
+const MusicAlbumOutdoor = ({ id, title, subtitle, thumbnail }) => {
   return (
     <Container>
       <ContainerController onMouseOver={showPlay} onMouseOut={hidePlay}>
         <MusicPlay theme="musicAlbumOutdoor" />
-        <Avatar src={avatarUrl} alt={`${musicTitle} - ${musicAuthor}`} />
+        <Avatar src={thumbnail} alt={`${title} - ${subtitle}`} />
       </ContainerController>
 
-      <MusicTitle>{musicTitle}</MusicTitle>
-      <MusicAuthor>{musicAuthor}</MusicAuthor>
+      <MusicTitle>{title}</MusicTitle>
+      <MusicAuthor>{subtitle}</MusicAuthor>
     </Container>
   );
 };
