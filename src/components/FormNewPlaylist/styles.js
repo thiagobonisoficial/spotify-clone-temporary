@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 export const Form = styled.form`
   width: 100%;
@@ -43,20 +44,18 @@ export const PlaylistName = styled.input`
   }
 `;
 
-export const Button = styled.button`
+export const Hyperlink = styled(NavLink)`
   width: 15%;
   height: auto;
   padding: 1rem;
   font-family: "Circular-Book";
   letter-spacing: 0.16em;
   color: white;
-  border-radius: 50px;
-`;
-
-export const Cancel = styled(Button)`
   margin: 0 2rem 0 0;
   background-color: rgba(24, 24, 24, 0.7);
   border: 2px #b3b3b3 solid;
+  border-radius: 50px;
+  text-align: center;
 
   &:hover {
     transform: scale(1.1);
@@ -64,13 +63,26 @@ export const Cancel = styled(Button)`
   }
 `;
 
-export const Create = styled(Button)`
+export const Create = styled.button`
+  width: 15%;
+  height: auto;
+  padding: 1rem;
+  font-family: "Circular-Book";
+  letter-spacing: 0.16em;
+  color: white;
   background-color: #1db954;
+  border-radius: 50px;
   border: none;
 
-  &:hover {
-    transform: scale(1.1);
-    background-color: #1ed760;
-    transition-duration: 0.2s;
+  &:disabled {
+    background-color: #b3b3b3;
+  }
+
+  &:not(:disabled) {
+    &:hover {
+      transform: scale(1.1);
+      background-color: #1ed760;
+      transition-duration: 0.2s;
+    }
   }
 `;

@@ -23,7 +23,6 @@ export { default as MusicAdvanced } from "./MusicAdvanced";
 export { default as MusicRepeat } from "./MusicRepeat";
 export { default as MusicReproduction } from "./MusicReproduction";
 export { default as MusicSound } from "./MusicSound";
-export { default as ButtonClose } from "./ButtonClose";
 export { default as ControllerFooter } from "./ControllerFooter";
 export { default as ControllerPlayer } from "./ControllerPlayer";
 export { default as ControllerSound } from "./ControllerSound";

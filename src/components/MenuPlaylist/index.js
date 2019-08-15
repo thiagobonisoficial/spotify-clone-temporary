@@ -11,7 +11,7 @@ class MenuPlaylist extends Component {
     newPlaylistData: [
       {
         to: "/playlist/:id",
-        name: "Test"
+        name: "aaaaaaaaaaaaaaaaaaaa"
       },
       {
         to: "/playlist/:id",

@@ -20,6 +20,13 @@ export const Title = styled.span`
 `;
 
 export const Hyperlink = styled(NavLink)`
+  &.active {
+    i,
+    ${Title} {
+      color: ${Color.greenLight} !important;
+    }
+  }
+
   &:hover {
     i,
     ${Title} {

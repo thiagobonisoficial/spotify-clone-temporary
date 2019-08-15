@@ -11,6 +11,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
+  z-index: 5;
   padding-bottom: 5.3rem;
   background-color: rgba(0, 0, 0, 0.6);
 

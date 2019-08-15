@@ -7,12 +7,7 @@ import { Container, SectionTitle } from "./styles";
 import { GlobalStyle } from "styles";
 
 // SUBCOMPONENT'S
-import {
-  Sidebar,
-  ControllerFooter,
-  ButtonClose,
-  FormNewPlaylist
-} from "components";
+import { Sidebar, ControllerFooter, FormNewPlaylist } from "components";
 
 class NewPlaylist extends Component {
   state = {};
@@ -24,7 +19,6 @@ class NewPlaylist extends Component {
         <Sidebar />
         <ControllerFooter />
         <Container>
-          <ButtonClose />
           <SectionTitle>Create your new playlist</SectionTitle>
           <FormNewPlaylist />
         </Container>
