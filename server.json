@@ -46,6 +46,14 @@
       "record": "Columbia",
       "production": "Ray Colcord, Jack Douglas",
       "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/aerosmith/feed7b7f-963f-4f81-98b0-ec69a3145437.jpg?raw=true"
+    },
+    {
+      "id": "6b10ef55-928b-40b8-a3c4-d1dde19d0538",
+      "title": "Linkin Park",
+      "subtitle": "Hybrid Theory",
+      "record": "Warner Bros",
+      "production": "Don Gilmore",
+      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/linkin-park/6b10ef55-928b-40b8-a3c4-d1dde19d0538.jpg?raw=true"
     }
   ],
   "recentlyPlayed": [],
@@ -177,6 +185,32 @@
           "authors": "Steven Tyler",
           "file": "",
           "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/aerosmith/feed7b7f-963f-4f81-98b0-ec69a3145437.jpg?raw=true"
+        }
+      ]
+    },
+    {
+      "albumID": "6b10ef55-928b-40b8-a3c4-d1dde19d0538",
+      "albumSongs": [
+        {
+          "id": "dc4253df-1fa3-4bf9-925f-c56f73446cdd",
+          "title": "Papercut",
+          "authors": "Linkin Park",
+          "file": "",
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/linkin-park/6b10ef55-928b-40b8-a3c4-d1dde19d0538.jpg?raw=true"
+        },
+        {
+          "id": "66789dd0-4509-449f-8f0d-734ee88bf66a",
+          "title": "One Step Closer",
+          "authors": "Linkin Park",
+          "file": "",
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/linkin-park/6b10ef55-928b-40b8-a3c4-d1dde19d0538.jpg?raw=true"
+        },
+        {
+          "id": "ca914dcf-5af5-4019-ba71-b0c9810b11a2",
+          "title": "Crawling",
+          "authors": "Linkin Park",
+          "file": "",
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/linkin-park/6b10ef55-928b-40b8-a3c4-d1dde19d0538.jpg?raw=true"
         }
       ]
     }
