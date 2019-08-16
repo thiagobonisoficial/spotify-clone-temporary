@@ -54,6 +54,14 @@
       "record": "Warner Bros",
       "production": "Don Gilmore",
       "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/linkin-park/6b10ef55-928b-40b8-a3c4-d1dde19d0538.jpg?raw=true"
+    },
+    {
+      "id": "f9535cfa-c675-4c47-a63d-16954aa960bd",
+      "title": "Led Zeppelin",
+      "subtitle": "Physical Graffiti",
+      "record": "Swan Song Records",
+      "production": "Jimmy Page",
+      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/led-zeppelin/f9535cfa-c675-4c47-a63d-16954aa960bd.jpg?raw=true"
     }
   ],
   "recentlyPlayed": [],
@@ -211,6 +219,32 @@
           "authors": "Linkin Park",
           "file": "",
           "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/linkin-park/6b10ef55-928b-40b8-a3c4-d1dde19d0538.jpg?raw=true"
+        }
+      ]
+    },
+    {
+      "albumID": "f9535cfa-c675-4c47-a63d-16954aa960bd",
+      "albumSongs": [
+        {
+          "id": "6dd9aafb-2604-4364-9039-96c8dd28c7b5",
+          "title": "Custard Pie",
+          "authors": "Led Zeppelin",
+          "file": "",
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/led-zeppelin/f9535cfa-c675-4c47-a63d-16954aa960bd.jpg?raw=true"
+        },
+        {
+          "id": "139e6e5d-689a-4aaf-93b2-eb615353b5f5",
+          "title": "The Rover",
+          "authors": "Led Zeppelin",
+          "file": "",
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/led-zeppelin/f9535cfa-c675-4c47-a63d-16954aa960bd.jpg?raw=true"
+        },
+        {
+          "id": "31604607-c6c6-4d69-b066-15da4a85cce8",
+          "title": "Houses of the Holy",
+          "authors": "Led Zeppelin",
+          "file": "",
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/led-zeppelin/f9535cfa-c675-4c47-a63d-16954aa960bd.jpg?raw=true"
         }
       ]
     }
