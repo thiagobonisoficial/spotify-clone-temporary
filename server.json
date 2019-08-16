@@ -37,7 +37,15 @@
       "subtitle": "High Voltage",
       "record": "Albert Productions",
       "production": "Harry Vanda, George Young",
-      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/ac-dc/22afc576-efa9-49de-a41e-8eaf89dca824.jpg?raw=true"
+      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/ac-dc/22afc576-efa9-49de-a41e-8eaf89dca824.jpg?raw=true"
+    },
+    {
+      "id": "feed7b7f-963f-4f81-98b0-ec69a3145437",
+      "title": "Aerosmith",
+      "subtitle": "Get Your Wings",
+      "record": "Columbia",
+      "production": "Ray Colcord, Jack Douglas",
+      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/aerosmith/feed7b7f-963f-4f81-98b0-ec69a3145437.jpg?raw=true"
     }
   ],
   "recentlyPlayed": [],
@@ -128,21 +136,47 @@
           "title": "Baby, Please Don't Go",
           "authors": "Jack Douglas, Marti Frederiksen, Steven Tyler, Joe Perry",
           "file": "",
-          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/ac-dc/22afc576-efa9-49de-a41e-8eaf89dca824.jpg?raw=true"
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/ac-dc/22afc576-efa9-49de-a41e-8eaf89dca824.jpg?raw=true"
         },
         {
           "id": "d06b0c3b-bd8f-49f9-ac07-4d5644516175",
           "title": "Interstellar Overdrive",
           "authors": "Harry Vanda, George Young",
           "file": "",
-          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/ac-dc/22afc576-efa9-49de-a41e-8eaf89dca824.jpg?raw=true"
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/ac-dc/22afc576-efa9-49de-a41e-8eaf89dca824.jpg?raw=true"
         },
         {
           "id": "5d0cb442-9fe5-4355-ac71-8bc74cad64d5",
           "title": "Stick Around",
           "authors": "Bobby Ray, Oliver Hardy, Hazel Newman, Harry McCoy",
           "file": "",
-          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/ac-dc/22afc576-efa9-49de-a41e-8eaf89dca824.jpg?raw=true"
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/ac-dc/22afc576-efa9-49de-a41e-8eaf89dca824.jpg?raw=true"
+        }
+      ]
+    },
+    {
+      "albumID": "feed7b7f-963f-4f81-98b0-ec69a3145437",
+      "albumSongs": [
+        {
+          "id": "bcbba5df-18bb-4b47-8536-808a5b93b9a0",
+          "title": "Same Old Song and Dance",
+          "authors": "Steven Tyler, Joe Perry",
+          "file": "",
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/aerosmith/feed7b7f-963f-4f81-98b0-ec69a3145437.jpg?raw=true"
+        },
+        {
+          "id": "363893eb-ed61-4050-b29a-424ff5863f67",
+          "title": "Lord of the Thighs",
+          "authors": "Steven Tyler",
+          "file": "",
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/aerosmith/feed7b7f-963f-4f81-98b0-ec69a3145437.jpg?raw=true"
+        },
+        {
+          "id": "31bf83f8-cbd2-4b2b-a37d-798096c2086f",
+          "title": "S.O.S. (Too Bad)",
+          "authors": "Steven Tyler",
+          "file": "",
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/aerosmith/feed7b7f-963f-4f81-98b0-ec69a3145437.jpg?raw=true"
         }
       ]
     }
