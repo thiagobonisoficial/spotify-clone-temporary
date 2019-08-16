@@ -1,7 +1,7 @@
 import React, { Fragment, Component } from "react";
 
 // SERVICES
-import { getAlbums } from "services/Api";
+import { getNewReleases, getRecentlyPlayed } from "services/Api";
 
 // STYLES
 import {
@@ -14,6 +14,9 @@ import {
 // GLOBAL STYLES
 import { GlobalStyle } from "styles";
 
+// IMAGES
+import LoadingIMG from "assets/images/utils/loading.jpg";
+
 // SUBCOMPONENT'S
 import {
   Sidebar,
@@ -24,31 +27,93 @@ import {
 
 class Featured extends Component {
   state = {
+    loading: {
+      newReleases: true,
+      recentlyPlayed: true,
+      skeleton: [
+        {
+          id: "skeleton-1",
+          thumbnail: LoadingIMG
+        },
+        {
+          id: "skeleton-2",
+          thumbnail: LoadingIMG
+        },
+        {
+          id: "skeleton-3",
+          thumbnail: LoadingIMG
+        },
+        {
+          id: "skeleton-4",
+          thumbnail: LoadingIMG
+        },
+        {
+          id: "skeleton-5",
+          thumbnail: LoadingIMG
+        },
+        {
+          id: "skeleton-6",
+          thumbnail: LoadingIMG
+        },
+        {
+          id: "skeleton-7",
+          thumbnail: LoadingIMG
+        },
+        {
+          id: "skeleton-8",
+          thumbnail: LoadingIMG
+        }
+      ]
+    },
+
     newReleases: [],
     recentlyPlayed: []
   };
 
   // LIFE CYCLES
-  UNSAFE_componentWillMount() {
-    getAlbums()
-      .then(({ data: { newReleases, recentlyPlayed } }) => {
-        this.setState({
-          newReleases: [...newReleases],
-          recentlyPlayed: [...recentlyPlayed]
-        });
-      })
-      .catch(error => {
-        console.warn(error);
-        this.setState({
-          newReleases: [],
-          recentlyPlayed: []
-        });
-      });
+  componentDidMount() {
+    this.consumeAPI();
   }
 
-  componentDidMount() {
-    // console.log(this.state);
-  }
+  // METHODS
+  consumeAPI = () => {
+    getNewReleases()
+      .then(({ data }) => {
+        this.setState({
+          loading: { newReleases: false },
+          newReleases: data
+        });
+      })
+      .catch(error => console.warn(error));
+
+    getRecentlyPlayed()
+      .then(({ data }) => {
+        this.setState({
+          loading: { recentlyPlayed: false },
+          recentlyPlayed: data
+        });
+      })
+      .catch(error => console.warn(error));
+  };
+
+  renderOutdoor = state => {
+    return state.map(({ id, thumbnail, title, subtitle }) => {
+      return (
+        <MusicAlbumOutdoor
+          key={id}
+          thumbnail={thumbnail}
+          title={title}
+          subtitle={subtitle}
+        />
+      );
+    });
+  };
+
+  renderLoadingSkeleton = () => {
+    return this.state.loading.skeleton.map(({ id, thumbnail }) => {
+      return <MusicAlbumOutdoor key={id} thumbnail={thumbnail} />;
+    });
+  };
 
   render = () => {
     return (
@@ -61,44 +126,18 @@ class Featured extends Component {
           <ContainerSection>
             <SectionTitle>New releases</SectionTitle>
             <ContainerMusicAlbum>
-              {this.state.newReleases.map(
-                ({ id, title, subtitle, thumbnail }) => {
-                  return (
-                    <MusicAlbumOutdoor
-                      key={id}
-                      thumbnail={thumbnail}
-                      title={title}
-                      subtitle={subtitle}
-                    />
-                  );
-                }
-              )}
+              {this.state.loading.newReleases
+                ? this.renderLoadingSkeleton()
+                : this.renderOutdoor(this.state.newReleases)}
             </ContainerMusicAlbum>
           </ContainerSection>
 
           <ContainerSection>
             <SectionTitle>Recently played</SectionTitle>
             <ContainerMusicAlbum>
-              <MusicAlbumOutdoor />
-              <MusicAlbumOutdoor />
-              <MusicAlbumOutdoor />
-              <MusicAlbumOutdoor />
-              <MusicAlbumOutdoor />
-              <MusicAlbumOutdoor />
-              <MusicAlbumOutdoor />
-              <MusicAlbumOutdoor />
-              <MusicAlbumOutdoor />
-              <MusicAlbumOutdoor />
-            </ContainerMusicAlbum>
-          </ContainerSection>
-
-          <ContainerSection>
-            <SectionTitle>Stops</SectionTitle>
-            <ContainerMusicAlbum>
-              <MusicAlbumOutdoor />
-              <MusicAlbumOutdoor />
-              <MusicAlbumOutdoor />
-              <MusicAlbumOutdoor />
+              {this.state.loading.recentlyPlayed
+                ? this.renderLoadingSkeleton()
+                : this.renderOutdoor(this.state.recentlyPlayed)}
             </ContainerMusicAlbum>
           </ContainerSection>
         </Container>

@@ -6,27 +6,41 @@
       "password": "123456"
     }
   ],
-  "albums": {
-    "newReleases": [
-      {
-        "id": "d6dbc713-e830-4561-806f-f013ad6920b6",
-        "title": "Charlie Brown JR",
-        "subtitle": "Short Price... Long Term",
-        "record": "Virgin",
-        "production": "Rick Bonadio, Tadeu Patola",
-        "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/charlie-brown-jr/d6dbc713-e830-4561-806f-f013ad6920b6.jpg?raw=true"
-      },
-      {
-        "id": "92d4c4e5-18f4-48f0-84e8-ca10238db3ba",
-        "title": "The Beatles",
-        "subtitle": "Abbey Road",
-        "record": "Apple Records",
-        "production": "George Martin",
-        "thumbnail": ""
-      }
-    ],
-    "recentlyPlayed": []
-  },
+  "newReleases": [
+    {
+      "id": "d6dbc713-e830-4561-806f-f013ad6920b6",
+      "title": "Charlie Brown JR",
+      "subtitle": "Short Price... Long Term",
+      "record": "Virgin",
+      "production": "Rick Bonadio, Tadeu Patola",
+      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/charlie-brown-jr/d6dbc713-e830-4561-806f-f013ad6920b6.jpg?raw=true"
+    },
+    {
+      "id": "92d4c4e5-18f4-48f0-84e8-ca10238db3ba",
+      "title": "The Beatles",
+      "subtitle": "Abbey Road",
+      "record": "Apple Records",
+      "production": "George Martin",
+      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/the-beatles/35e9041b-b996-40d7-b448-2053c46ac902.jpg?raw=true"
+    },
+    {
+      "id": "d2777591-3619-43c1-9c81-f11411fb28dc",
+      "title": "Pink Floyd",
+      "subtitle": "The Piper at the Gates of Dawn",
+      "record": "Columbia, EMI, Tower, Capitol",
+      "production": "Norman Smith",
+      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg?raw=true"
+    },
+    {
+      "id": "22afc576-efa9-49de-a41e-8eaf89dca824",
+      "title": "AC/DC",
+      "subtitle": "High Voltage",
+      "record": "Albert Productions",
+      "production": "Harry Vanda, George Young",
+      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/ac-dc/22afc576-efa9-49de-a41e-8eaf89dca824.jpg?raw=true"
+    }
+  ],
+  "recentlyPlayed": [],
   "songs": [
     {
       "albumID": "d6dbc713-e830-4561-806f-f013ad6920b6",
@@ -76,7 +90,59 @@
           "title": "Maxwell's Silver Hammer",
           "authors": "Paul McCartney",
           "file": "",
-          "thumbnail": ""
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/the-beatles/35e9041b-b996-40d7-b448-2053c46ac902.jpg?raw=true"
+        }
+      ]
+    },
+    {
+      "albumID": "d2777591-3619-43c1-9c81-f11411fb28dc",
+      "albumSongs": [
+        {
+          "id": "46009bf2-42e0-4429-b06a-a0dcf0d40ff2",
+          "title": "Flaming",
+          "authors": "Syd Barrett",
+          "file": "",
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg?raw=true"
+        },
+        {
+          "id": "8d6b83f8-b077-4a50-aba1-231220280760",
+          "title": "Interstellar Overdrive",
+          "authors": "Syd Barrett, Roger Waters, Rick Wright, Nick Mason",
+          "file": "",
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg?raw=true"
+        },
+        {
+          "id": "04c357dd-35c7-4880-bd3e-a64bf5187b9b",
+          "title": "See Emily Play",
+          "authors": "Syd Barrett",
+          "file": "",
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg?raw=true"
+        }
+      ]
+    },
+    {
+      "albumID": "22afc576-efa9-49de-a41e-8eaf89dca824",
+      "albumSongs": [
+        {
+          "id": "0505e59c-f83d-4710-b440-eac3caf90de3",
+          "title": "Baby, Please Don't Go",
+          "authors": "Jack Douglas, Marti Frederiksen, Steven Tyler, Joe Perry",
+          "file": "",
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/ac-dc/22afc576-efa9-49de-a41e-8eaf89dca824.jpg?raw=true"
+        },
+        {
+          "id": "d06b0c3b-bd8f-49f9-ac07-4d5644516175",
+          "title": "Interstellar Overdrive",
+          "authors": "Harry Vanda, George Young",
+          "file": "",
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/ac-dc/22afc576-efa9-49de-a41e-8eaf89dca824.jpg?raw=true"
+        },
+        {
+          "id": "5d0cb442-9fe5-4355-ac71-8bc74cad64d5",
+          "title": "Stick Around",
+          "authors": "Bobby Ray, Oliver Hardy, Hazel Newman, Harry McCoy",
+          "file": "",
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/ac-dc/22afc576-efa9-49de-a41e-8eaf89dca824.jpg?raw=true"
         }
       ]
     }

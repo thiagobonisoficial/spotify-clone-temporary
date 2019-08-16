@@ -5,6 +5,10 @@ const instance = axios.create({
   timeout: 1000
 });
 
-export async function getAlbums() {
-  return await instance.get("/albums");
+export function getNewReleases() {
+  return instance.get("/newReleases");
+}
+
+export function getRecentlyPlayed() {
+  return instance.get("/recentlyPlayed");
 }
