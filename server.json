@@ -13,7 +13,7 @@
       "subtitle": "Short Price... Long Term",
       "record": "Virgin",
       "production": "Rick Bonadio, Tadeu Patola",
-      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/charlie-brown-jr/d6dbc713-e830-4561-806f-f013ad6920b6.jpg?raw=true"
+      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/charlie-brown-jr/d6dbc713-e830-4561-806f-f013ad6920b6.jpg?raw=true"
     },
     {
       "id": "92d4c4e5-18f4-48f0-84e8-ca10238db3ba",
@@ -21,7 +21,7 @@
       "subtitle": "Abbey Road",
       "record": "Apple Records",
       "production": "George Martin",
-      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/the-beatles/35e9041b-b996-40d7-b448-2053c46ac902.jpg?raw=true"
+      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/the-beatles/35e9041b-b996-40d7-b448-2053c46ac902.jpg?raw=true"
     },
     {
       "id": "d2777591-3619-43c1-9c81-f11411fb28dc",
@@ -29,7 +29,7 @@
       "subtitle": "The Piper at the Gates of Dawn",
       "record": "Columbia, EMI, Tower, Capitol",
       "production": "Norman Smith",
-      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg?raw=true"
+      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg?raw=true"
     },
     {
       "id": "22afc576-efa9-49de-a41e-8eaf89dca824",
@@ -50,21 +50,21 @@
           "title": "Squid Eyes",
           "authors": "Chorão, Champignon, Pelado",
           "file": "",
-          "thumbnail": "https://raw.githubusercontent.com/thiagodebonisoficial/spotify-clone/frontend-v.1.0.0/src/assets/imgs/songs/charlie-brown-jr/af055130-2850-4b6a-bc26-d79b433a4090.jpg"
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/charlie-brown-jr/d6dbc713-e830-4561-806f-f013ad6920b6.jpg?raw=true"
         },
         {
           "id": "4861e780-1a74-49c5-8370-7e8ae35dc1fe",
           "title": "Take you from here",
           "authors": "Chorão",
           "file": "",
-          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/charlie-brown-jr/d6dbc713-e830-4561-806f-f013ad6920b6.jpg?raw=true"
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/charlie-brown-jr/d6dbc713-e830-4561-806f-f013ad6920b6.jpg?raw=true"
         },
         {
           "id": "6839fa2a-6a5d-4e51-b8a4-f81bb0fb88f9",
           "title": "The Price",
           "authors": "Champignon, Chorão",
           "file": "",
-          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/charlie-brown-jr/d6dbc713-e830-4561-806f-f013ad6920b6.jpg?raw=true"
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/charlie-brown-jr/d6dbc713-e830-4561-806f-f013ad6920b6.jpg?raw=true"
         }
       ]
     },
@@ -76,21 +76,21 @@
           "title": "Come Together",
           "authors": "John Lennon",
           "file": "",
-          "thumbnail": ""
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/the-beatles/35e9041b-b996-40d7-b448-2053c46ac902.jpg?raw=true"
         },
         {
           "id": "570ad31e-f2c8-488b-a840-72e2ef56cacc",
           "title": "Something",
           "authors": "George Harrison",
           "file": "",
-          "thumbnail": ""
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/the-beatles/35e9041b-b996-40d7-b448-2053c46ac902.jpg?raw=true"
         },
         {
           "id": "6c7920c4-a53c-49e9-bc03-bb162c7f33e0",
           "title": "Maxwell's Silver Hammer",
           "authors": "Paul McCartney",
           "file": "",
-          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/the-beatles/35e9041b-b996-40d7-b448-2053c46ac902.jpg?raw=true"
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/the-beatles/35e9041b-b996-40d7-b448-2053c46ac902.jpg?raw=true"
         }
       ]
     },
@@ -102,21 +102,21 @@
           "title": "Flaming",
           "authors": "Syd Barrett",
           "file": "",
-          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg?raw=true"
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg?raw=true"
         },
         {
           "id": "8d6b83f8-b077-4a50-aba1-231220280760",
           "title": "Interstellar Overdrive",
           "authors": "Syd Barrett, Roger Waters, Rick Wright, Nick Mason",
           "file": "",
-          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg?raw=true"
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg?raw=true"
         },
         {
           "id": "04c357dd-35c7-4880-bd3e-a64bf5187b9b",
           "title": "See Emily Play",
           "authors": "Syd Barrett",
           "file": "",
-          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/imgs/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg?raw=true"
+          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg?raw=true"
         }
       ]
     },
