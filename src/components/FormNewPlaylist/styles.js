@@ -1,6 +1,9 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
+// GLOBAL STYLES
+import Colors from "styles/Colors";
+
 export const Form = styled.form`
   width: 100%;
   height: auto;
@@ -8,28 +11,32 @@ export const Form = styled.form`
   flex-direction: column;
 `;
 
-export const FormGroupOne = styled.div`
+export const FormGroup = styled.div`
   width: auto;
   height: auto;
   display: flex;
-  flex-direction: column;
-  margin: 2rem 0 0 0;
-  padding: 2rem 20rem 2rem 20rem;
-  background-color: #282828;
-`;
-
-export const FormGroupTwo = styled.div`
-  width: auto;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  margin: 3rem 0 0 0;
+  flex-direction: ${props => props.theme.flexDirection};
+  justify-content: ${props => props.theme.justifyContent};
+  margin: ${props => props.theme.margin};
+  padding: ${props => props.theme.padding};
+  background-color: ${props => props.theme.bgColor};
 `;
 
 export const Label = styled.label`
   margin: 0 0 0.3rem 0rem;
   font-family: "Circular-Bold";
   color: white;
+`;
+
+export const ErrorMsg = styled.span`
+  width: 30rem;
+  height: auto;
+  padding: 1rem;
+  font-family: "Circular-Book";
+  border: 1px red dashed;
+  color: red;
+  text-align: center;
+  margin: 0 auto;
 `;
 
 export const PlaylistName = styled.input`
@@ -40,7 +47,7 @@ export const PlaylistName = styled.input`
   border: none;
 
   &::placeholder {
-    color: #535353;
+    color: ${Colors.greyBlack3};
   }
 `;
 
@@ -52,8 +59,8 @@ export const Hyperlink = styled(NavLink)`
   letter-spacing: 0.16em;
   color: white;
   margin: 0 2rem 0 0;
-  background-color: rgba(24, 24, 24, 0.7);
-  border: 2px #b3b3b3 solid;
+  background-color: ${Colors.greyBlack3};
+  border: 2px ${Colors.greyLight} solid;
   border-radius: 50px;
   text-align: center;
 
@@ -70,18 +77,18 @@ export const Create = styled.button`
   font-family: "Circular-Book";
   letter-spacing: 0.16em;
   color: white;
-  background-color: #1db954;
+  background-color: ${Colors.greenLight};
   border-radius: 50px;
   border: none;
 
   &:disabled {
-    background-color: #b3b3b3;
+    background-color: ${Colors.greyLight};
   }
 
   &:not(:disabled) {
     &:hover {
       transform: scale(1.1);
-      background-color: #1ed760;
+      background-color: ${Colors.greenLight2};
       transition-duration: 0.2s;
     }
   }

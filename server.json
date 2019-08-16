@@ -1,9 +1,75 @@
 {
-  "users": [
+  "user": [
     {
       "id": "a622814d-bb1e-40a8-8c86-9fe5a921951f",
       "username": "admin",
       "password": "123456"
+    }
+  ],
+  "playlist": [
+    {
+      "to": "oi",
+      "name": "oi2"
+    },
+    {
+      "id": "eef8d601-7842-1f3e-be93-ac429e390e066869",
+      "to": "/playlist/eef8d601-7842-1f3e-be93-ac429e390e066869",
+      "name": "oi22"
+    },
+    {
+      "id": "73ac6234-d268-c022-a2a1-11a729b62664d663",
+      "to": "/playlist/73ac6234-d268-c022-a2a1-11a729b62664d663",
+      "name": "eq"
+    },
+    {
+      "id": "489b6bb9-92ce-95da-9358-762726ca8aa8c0cf",
+      "to": "/playlist/489b6bb9-92ce-95da-9358-762726ca8aa8c0cf",
+      "name": "eqeqeqeq1111"
+    },
+    {
+      "id": "c1410bf7-4cc3-77c1-d0a6-8714488f0241413a",
+      "to": "/playlist/c1410bf7-4cc3-77c1-d0a6-8714488f0241413a",
+      "name": "rr"
+    },
+    {
+      "id": "869a397c-840a-fb71-885b-1a261335eec2cd55",
+      "to": "/playlist/869a397c-840a-fb71-885b-1a261335eec2cd55",
+      "name": "e"
+    },
+    {
+      "id": "5284c062-3be3-ff62-f472-960ddf4cb07a2eff",
+      "to": "/playlist/5284c062-3be3-ff62-f472-960ddf4cb07a2eff",
+      "name": "EQEQEQE"
+    },
+    {
+      "id": "11dcbb1a-9241-55f9-44d3-527335bc42ae4f41",
+      "to": "/playlist/11dcbb1a-9241-55f9-44d3-527335bc42ae4f41",
+      "name": " "
+    },
+    {
+      "id": "8fd400b2-7efd-6d36-4290-3f608459497d2349",
+      "to": "/playlist/8fd400b2-7efd-6d36-4290-3f608459497d2349",
+      "name": "OI2"
+    },
+    {
+      "id": "da734096-36d6-cce2-915e-1795223bfceca42b",
+      "to": "/playlist/da734096-36d6-cce2-915e-1795223bfceca42b",
+      "name": "eqeqe"
+    },
+    {
+      "id": "11081003-e01b-8a2a-1ce4-c84a4900061a5ee2",
+      "to": "/playlist/11081003-e01b-8a2a-1ce4-c84a4900061a5ee2",
+      "name": "eqeq"
+    },
+    {
+      "id": "824f978e-f87d-3522-e64a-61c4c75cb71eab92",
+      "to": "/playlist/824f978e-f87d-3522-e64a-61c4c75cb71eab92",
+      "name": "oi3"
+    },
+    {
+      "id": "350abbed-d55d-b582-565c-27c15931c8710ace",
+      "to": "/playlist/350abbed-d55d-b582-565c-27c15931c8710ace",
+      "name": "o2"
     }
   ],
   "newReleases": [
@@ -64,7 +130,6 @@
       "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/led-zeppelin/f9535cfa-c675-4c47-a63d-16954aa960bd.jpg?raw=true"
     }
   ],
-  "recentlyPlayed": [],
   "songs": [
     {
       "albumID": "d6dbc713-e830-4561-806f-f013ad6920b6",

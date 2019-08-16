@@ -29,7 +29,6 @@ class Featured extends Component {
   state = {
     loading: {
       newReleases: true,
-      recentlyPlayed: true,
       skeleton: [
         {
           id: "skeleton-1",
@@ -58,16 +57,10 @@ class Featured extends Component {
         {
           id: "skeleton-7",
           thumbnail: LoadingIMG
-        },
-        {
-          id: "skeleton-8",
-          thumbnail: LoadingIMG
         }
       ]
     },
-
-    newReleases: [],
-    recentlyPlayed: []
+    newReleases: []
   };
 
   // LIFE CYCLES
@@ -82,15 +75,6 @@ class Featured extends Component {
         this.setState({
           loading: { newReleases: false },
           newReleases: data
-        });
-      })
-      .catch(error => console.warn(error));
-
-    getRecentlyPlayed()
-      .then(({ data }) => {
-        this.setState({
-          loading: { recentlyPlayed: false },
-          recentlyPlayed: data
         });
       })
       .catch(error => console.warn(error));
@@ -129,15 +113,6 @@ class Featured extends Component {
               {this.state.loading.newReleases
                 ? this.renderLoadingSkeleton()
                 : this.renderOutdoor(this.state.newReleases)}
-            </ContainerMusicAlbum>
-          </ContainerSection>
-
-          <ContainerSection>
-            <SectionTitle>Recently played</SectionTitle>
-            <ContainerMusicAlbum>
-              {this.state.loading.recentlyPlayed
-                ? this.renderLoadingSkeleton()
-                : this.renderOutdoor(this.state.recentlyPlayed)}
             </ContainerMusicAlbum>
           </ContainerSection>
         </Container>

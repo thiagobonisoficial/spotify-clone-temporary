@@ -30,3 +30,4 @@ export { default as ControllerTime } from "./ControllerTime";
 export { default as CreatePlaylist } from "./CreatePlaylist";
 export { default as CreatedPlaylist } from "./CreatedPlaylist";
 export { default as FormNewPlaylist } from "./FormNewPlaylist";
+export { default as LoadingSpinner } from "./LoadingSpinner";
