@@ -7,14 +7,12 @@ import { Container, SectionTitle } from "./styles";
 import { GlobalStyle } from "styles";
 
 // SUBCOMPONENT'S
-import { Sidebar, ControllerFooter, FormNewPlaylist } from "components";
+import { FormNewPlaylist } from "components";
 
 const NewPlaylist = () => {
   return (
     <Fragment>
       <GlobalStyle theme="midnight" />
-      <Sidebar />
-      <ControllerFooter />
       <Container>
         <SectionTitle>Create your new playlist</SectionTitle>
         <FormNewPlaylist />

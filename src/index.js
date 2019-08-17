@@ -1,12 +1,27 @@
-import React from "react";
+import React, { Fragment } from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 
 // ROUTES
 import Routes from "routes";
 
+// SUBCOMPONENT'S
+import { Sidebar, ControllerFooter } from "components";
+
+const renderComponents = () => {
+  if (window.location.pathname !== "/login") {
+    return (
+      <Fragment>
+        <Sidebar />
+        <ControllerFooter />
+      </Fragment>
+    );
+  }
+};
+
 ReactDOM.render(
   <BrowserRouter>
+    {renderComponents()}
     <Routes />
   </BrowserRouter>,
   document.getElementById("root")

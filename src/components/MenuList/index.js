@@ -20,7 +20,7 @@ class MenuList extends Component {
   };
 
   // LIFE CYCLES
-  UNSAFE_componentWillMount() {
+  componentDidMount() {
     this.changeStates();
   }
 

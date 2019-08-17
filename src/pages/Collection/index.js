@@ -12,7 +12,7 @@ import {
 import { GlobalStyle } from "styles";
 
 // SUBCOMPONENT'S
-import { Sidebar, ControllerFooter, MusicAlbumOutdoor } from "components";
+import { MusicAlbumOutdoor } from "components";
 
 class Collection extends Component {
   state = {
@@ -90,8 +90,6 @@ class Collection extends Component {
     return (
       <Fragment>
         <GlobalStyle theme="midnight" />
-        <Sidebar />
-        <ControllerFooter />
         <Container>
           <ContainerSection>
             <SectionTitle>Saved playlists</SectionTitle>

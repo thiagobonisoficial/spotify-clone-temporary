@@ -7,14 +7,12 @@ import { Container } from "./styles";
 import { GlobalStyle } from "styles";
 
 // SUBCOMPONENT'S
-import { Sidebar, ControllerFooter, MessageWarning } from "components";
+import { MessageWarning } from "components";
 
 const Account = () => {
   return (
     <Fragment>
       <GlobalStyle theme="midnight" />
-      <Sidebar />
-      <ControllerFooter />
       <Container>
         <MessageWarning />
       </Container>

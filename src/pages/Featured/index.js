@@ -18,12 +18,7 @@ import { GlobalStyle } from "styles";
 import LoadingIMG from "assets/images/utils/loading.jpg";
 
 // SUBCOMPONENT'S
-import {
-  Sidebar,
-  ControllerFooter,
-  NavbarSection,
-  MusicAlbumOutdoor
-} from "components";
+import { NavbarSection, MusicAlbumOutdoor } from "components";
 
 class Featured extends Component {
   state = {
@@ -105,8 +100,6 @@ class Featured extends Component {
     return (
       <Fragment>
         <GlobalStyle theme="midnight" />
-        <Sidebar />
-        <ControllerFooter />
         <Container>
           <NavbarSection />
           <ContainerSection>
