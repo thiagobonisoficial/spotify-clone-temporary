@@ -45,7 +45,6 @@ export const PlaylistName = styled.input`
   background-color: transparent;
   color: white;
   border: none;
-
   &::placeholder {
     color: ${Colors.greyBlack3};
   }
@@ -63,7 +62,6 @@ export const Hyperlink = styled(NavLink)`
   border: 2px ${Colors.greyLight} solid;
   border-radius: 50px;
   text-align: center;
-
   &:hover {
     transform: scale(1.1);
     transition-duration: 0.2s;
@@ -80,11 +78,9 @@ export const Create = styled.button`
   background-color: ${Colors.greenLight};
   border-radius: 50px;
   border: none;
-
   &:disabled {
     background-color: ${Colors.greyLight};
   }
-
   &:not(:disabled) {
     &:hover {
       transform: scale(1.1);

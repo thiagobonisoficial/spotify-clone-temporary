@@ -12,13 +12,13 @@ import {
 // SUBCOMPONENT'S
 import { MusicPlay } from "components";
 
-function showPlay(e) {
+const showPlay = e => {
   e.currentTarget.querySelector("button").style.display = "block";
-}
+};
 
-function hidePlay(e) {
+const hidePlay = e => {
   e.currentTarget.querySelector("button").style.display = "none";
-}
+};
 
 const MusicAlbumOutdoor = ({ id, title, subtitle, thumbnail }) => {
   return (

@@ -41,6 +41,19 @@ class MenuList extends Component {
       : this.setState({ yourLibrary: { isActived: false } });
   };
 
+  changeIcons = themeName => {
+    switch (themeName) {
+      case "home":
+        return this.state.home.isActived ? "homeSelected" : "home";
+      case "search":
+        return this.state.search.isActived ? "searchSelected" : "search";
+      case "books":
+        return this.state.yourLibrary.isActived ? "booksSelected" : "books";
+      default:
+        return new Error("Invalid Theme Name!");
+    }
+  };
+
   activeHyperlink = () => {
     return this.state.home.isActived ? "active" : null;
   };
@@ -54,31 +67,19 @@ class MenuList extends Component {
             to="/browse/featured"
             className={this.activeHyperlink()}
           >
-            {this.state.home.isActived ? (
-              <Icon theme="homeSelected" padding="1rem" />
-            ) : (
-              <Icon theme="home" padding="1rem" />
-            )}
+            <Icon theme={this.changeIcons("home")} padding="1rem" />
             <Title>Home</Title>
           </Hyperlink>
         </Item>
         <Item>
           <Hyperlink exact to="/search/recent">
-            {this.state.search.isActived ? (
-              <Icon theme="searchSelected" padding="1rem" />
-            ) : (
-              <Icon theme="search" padding="1rem" />
-            )}
+            <Icon theme={this.changeIcons("search")} padding="1rem" />
             <Title>Search</Title>
           </Hyperlink>
         </Item>
         <Item>
           <Hyperlink exact to="/collection/playlists">
-            {this.state.yourLibrary.isActived ? (
-              <Icon theme="booksSelected" padding="1rem" />
-            ) : (
-              <Icon theme="books" padding="1rem" />
-            )}
+            <Icon theme={this.changeIcons("books")} padding="1rem" />
             <Title>Your Library</Title>
           </Hyperlink>
         </Item>

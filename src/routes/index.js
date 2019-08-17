@@ -30,6 +30,7 @@ const Routes = () => (
     <Route exact path="/search/recent" component={Search} />
     <Route exact path="/collection/playlists" component={Collection} />
     <Route exact path="/playlist/new" component={NewPlaylist} />
+    {/* <Route exact path="/playlist/:id" component={Playlist} /> */}
     <Route exact path="/settings/account" component={Account} />
     <Route path="*" component={Error404} />
   </Switch>

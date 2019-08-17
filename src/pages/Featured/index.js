@@ -1,7 +1,7 @@
 import React, { Fragment, Component } from "react";
 
 // SERVICES
-import { getNewReleases, getRecentlyPlayed } from "services/Api";
+import { cancelGetNewReleases, getNewReleases } from "services/Api";
 
 // STYLES
 import {
@@ -68,16 +68,18 @@ class Featured extends Component {
     this.consumeAPI();
   }
 
+  componentWillUnmount() {
+    cancelGetNewReleases("Request Canceled");
+  }
+
   // METHODS
   consumeAPI = () => {
-    getNewReleases()
-      .then(({ data }) => {
-        this.setState({
-          loading: { newReleases: false },
-          newReleases: data
-        });
-      })
-      .catch(error => console.warn(error));
+    getNewReleases().then(({ data }) => {
+      this.setState({
+        loading: { newReleases: false },
+        newReleases: data
+      });
+    });
   };
 
   renderOutdoor = state => {
