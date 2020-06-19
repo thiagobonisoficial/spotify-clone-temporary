@@ -28,7 +28,7 @@
 
 ## :rocket: About the Project
 
-\*This project is still under construction, but it is possible to do some actions and get a sense of its interface.
+This project is still under construction, but it is possible to do some actions and get a sense of its interface.
 
 Possible actions are:
 
@@ -36,7 +36,7 @@ Possible actions are:
 
 2. Access Routes
 
-3. Viewing Albums and Animations\*
+3. Viewing Albums and Animations
 
 ## :electric_plug: How to use
 
