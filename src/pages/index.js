@@ -1,5 +1,4 @@
 // BARREL'S PAGE'S
-export { default as Login } from "./Login";
 export { default as Featured } from "./Featured";
 export { default as NewPlaylist } from "./NewPlaylist";
 export { default as NewReleases } from "./NewReleases";
@@ -10,4 +9,3 @@ export { default as Charts } from "./Charts";
 export { default as Discover } from "./Discover";
 export { default as Genres } from "./Genres";
 export { default as Account } from "./Account";
-export { default as Error404 } from "./Error404";

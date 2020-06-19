@@ -8,8 +8,6 @@ export { default as Sidebar } from "./Sidebar";
 export { default as SliderRanger } from "./SliderRanger";
 export { default as GlobalFooter } from "./GlobalFooter";
 export { default as GlobalHeader } from "./GlobalHeader";
-export { default as LoginHeader } from "./LoginHeader";
-export { default as LoginForm } from "./LoginForm";
 export { default as MenuList } from "./MenuList";
 export { default as MenuPlaylist } from "./MenuPlaylist";
 export { default as MenuUser } from "./MenuUser";

@@ -9,14 +9,12 @@ import Routes from "routes";
 import { Sidebar, ControllerFooter } from "components";
 
 const renderComponents = () => {
-  if (window.location.pathname !== "/login") {
-    return (
-      <Fragment>
-        <Sidebar />
-        <ControllerFooter />
-      </Fragment>
-    );
-  }
+  return (
+    <Fragment>
+      <Sidebar />
+      <ControllerFooter />
+    </Fragment>
+  );
 };
 
 ReactDOM.render(

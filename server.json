@@ -6,58 +6,7 @@
       "password": "123456"
     }
   ],
-  "playlist": [
-    {
-      "id": "10f4e8e5-1d1f-46c2-e5c1-e3454017d67b381f",
-      "to": "/playlist/10f4e8e5-1d1f-46c2-e5c1-e3454017d67b381f",
-      "name": "Oi2"
-    },
-    {
-      "id": "bbc0b8c9-9114-3b7c-5dfe-2f468c2ad8a5639d",
-      "to": "/playlist/bbc0b8c9-9114-3b7c-5dfe-2f468c2ad8a5639d",
-      "name": "Oi22eqeqqqqqqqqqqqqq"
-    },
-    {
-      "id": "78b5b23f-8ad0-41cc-03fc-b787fb0f743cdb82",
-      "to": "/playlist/78b5b23f-8ad0-41cc-03fc-b787fb0f743cdb82",
-      "name": "eqeqeq"
-    },
-    {
-      "id": "b44ef414-a4c2-7c25-f01d-97e5b8a627de7dbf",
-      "to": "/playlist/b44ef414-a4c2-7c25-f01d-97e5b8a627de7dbf",
-      "name": "eqeqeqeqeq"
-    },
-    {
-      "id": "5512eff9-25f4-8d74-4a9e-181d38331a4a40bf",
-      "to": "/playlist/5512eff9-25f4-8d74-4a9e-181d38331a4a40bf",
-      "name": "eqeqeqeq"
-    },
-    {
-      "id": "69b38082-68a2-0c9b-3cb1-bf8011db6399522e",
-      "to": "/playlist/69b38082-68a2-0c9b-3cb1-bf8011db6399522e",
-      "name": "eqeqeqeqeqeq"
-    },
-    {
-      "id": "2699ce48-3c51-6cd8-a7e1-cdeba77fca58f156",
-      "to": "/playlist/2699ce48-3c51-6cd8-a7e1-cdeba77fca58f156",
-      "name": "oi4"
-    },
-    {
-      "id": "14371257-6a4a-047f-ee93-a35db6d313f8f614",
-      "to": "/playlist/14371257-6a4a-047f-ee93-a35db6d313f8f614",
-      "name": "oi5"
-    },
-    {
-      "id": "763e3fa6-ceee-b507-f966-034b18684428ac42",
-      "to": "/playlist/763e3fa6-ceee-b507-f966-034b18684428ac42",
-      "name": "oiiiii"
-    },
-    {
-      "id": "1d65f536-4e10-94f7-444d-62ba387bdd870f46",
-      "to": "/playlist/1d65f536-4e10-94f7-444d-62ba387bdd870f46",
-      "name": "thiago"
-    }
-  ],
+  "playlist": [],
   "newReleases": [
     {
       "id": "d6dbc713-e830-4561-806f-f013ad6920b6",
@@ -65,7 +14,7 @@
       "subtitle": "Short Price... Long Term",
       "record": "Virgin",
       "production": "Rick Bonadio, Tadeu Patola",
-      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/charlie-brown-jr/d6dbc713-e830-4561-806f-f013ad6920b6.jpg?raw=true"
+      "thumbnail": "https://raw.githubusercontent.com/thiagobonisoficial/spotify-clone-temporary/master/src/assets/images/albums/charlie-brown-jr/d6dbc713-e830-4561-806f-f013ad6920b6.jpg"
     },
     {
       "id": "92d4c4e5-18f4-48f0-84e8-ca10238db3ba",
@@ -73,7 +22,7 @@
       "subtitle": "Abbey Road",
       "record": "Apple Records",
       "production": "George Martin",
-      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/the-beatles/35e9041b-b996-40d7-b448-2053c46ac902.jpg?raw=true"
+      "thumbnail": "https://raw.githubusercontent.com/thiagobonisoficial/spotify-clone-temporary/master/src/assets/images/albums/the-beatles/35e9041b-b996-40d7-b448-2053c46ac902.jpg"
     },
     {
       "id": "d2777591-3619-43c1-9c81-f11411fb28dc",
@@ -81,7 +30,7 @@
       "subtitle": "The Piper at the Gates of Dawn",
       "record": "Columbia, EMI, Tower, Capitol",
       "production": "Norman Smith",
-      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg?raw=true"
+      "thumbnail": "https://raw.githubusercontent.com/thiagobonisoficial/spotify-clone-temporary/master/src/assets/images/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg"
     },
     {
       "id": "22afc576-efa9-49de-a41e-8eaf89dca824",
@@ -89,7 +38,7 @@
       "subtitle": "High Voltage",
       "record": "Albert Productions",
       "production": "Harry Vanda, George Young",
-      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/ac-dc/22afc576-efa9-49de-a41e-8eaf89dca824.jpg?raw=true"
+      "thumbnail": "https://raw.githubusercontent.com/thiagobonisoficial/spotify-clone-temporary/master/src/assets/images/albums/ac-dc/22afc576-efa9-49de-a41e-8eaf89dca824.jpg"
     },
     {
       "id": "feed7b7f-963f-4f81-98b0-ec69a3145437",
@@ -97,7 +46,7 @@
       "subtitle": "Get Your Wings",
       "record": "Columbia",
       "production": "Ray Colcord, Jack Douglas",
-      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/aerosmith/feed7b7f-963f-4f81-98b0-ec69a3145437.jpg?raw=true"
+      "thumbnail": "https://raw.githubusercontent.com/thiagobonisoficial/spotify-clone-temporary/master/src/assets/images/albums/aerosmith/feed7b7f-963f-4f81-98b0-ec69a3145437.jpg"
     },
     {
       "id": "6b10ef55-928b-40b8-a3c4-d1dde19d0538",
@@ -105,7 +54,7 @@
       "subtitle": "Hybrid Theory",
       "record": "Warner Bros",
       "production": "Don Gilmore",
-      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/linkin-park/6b10ef55-928b-40b8-a3c4-d1dde19d0538.jpg?raw=true"
+      "thumbnail": "https://raw.githubusercontent.com/thiagobonisoficial/spotify-clone-temporary/master/src/assets/images/albums/linkin-park/6b10ef55-928b-40b8-a3c4-d1dde19d0538.jpg"
     },
     {
       "id": "f9535cfa-c675-4c47-a63d-16954aa960bd",
@@ -113,7 +62,7 @@
       "subtitle": "Physical Graffiti",
       "record": "Swan Song Records",
       "production": "Jimmy Page",
-      "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/led-zeppelin/f9535cfa-c675-4c47-a63d-16954aa960bd.jpg?raw=true"
+      "thumbnail": "https://raw.githubusercontent.com/thiagobonisoficial/spotify-clone-temporary/master/src/assets/images/albums/led-zeppelin/6b10ef55-928b-40b8-a3c4-d1dde19d0433.jpg"
     }
   ],
   "songs": [
@@ -177,14 +126,14 @@
           "title": "Flaming",
           "authors": "Syd Barrett",
           "file": "",
-          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg?raw=true"
+          "thumbnail": "https://raw.githubusercontent.com/thiagobonisoficial/spotify-clone-temporary/master/src/assets/images/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg"
         },
         {
           "id": "8d6b83f8-b077-4a50-aba1-231220280760",
           "title": "Interstellar Overdrive",
           "authors": "Syd Barrett, Roger Waters, Rick Wright, Nick Mason",
           "file": "",
-          "thumbnail": "https://github.com/thiagodebonisoficial/spotify-clone/blob/frontend-v.1.0.0/src/assets/images/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg?raw=true"
+          "thumbnail": "https://raw.githubusercontent.com/thiagobonisoficial/spotify-clone-temporary/master/src/assets/images/albums/pink-floyd/d2777591-3619-43c1-9c81-f11411fb28dc.jpg"
         },
         {
           "id": "04c357dd-35c7-4880-bd3e-a64bf5187b9b",
