@@ -1,5 +1,10 @@
 {
-  "name": "spotify-clone",
+  "name": "spotify-web",
+  "description": "Project created to demonstrate my skills with Reactjs and other technologies and techniques.",
+  "author": {
+    "name": "THIAGO DE BONIS CARVALHO SAAD SAUD",
+    "url": "https://www.linkedin.com/in/thiagosaud/"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
