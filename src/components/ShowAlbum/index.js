@@ -8,11 +8,7 @@ import { Icon } from "components";
 
 const ShowAlbum = () => {
   return (
-    <Show
-      onClick={() => {
-        alert("ae");
-      }}
-    >
+    <Show onClick={() => alert("This function is for decoration. 💚")}>
       <Icon theme="showAlbum" fontSize="1rem" />
     </Show>
   );

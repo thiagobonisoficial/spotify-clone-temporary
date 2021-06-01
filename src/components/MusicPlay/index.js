@@ -11,11 +11,7 @@ import { Icon } from "components";
 const MusicPlay = ({ theme }) => {
   return (
     <ThemeProvider theme={Themes[theme]}>
-      <Play
-        onClick={() => {
-          alert("ae");
-        }}
-      >
+      <Play onClick={() => alert("This function is for decoration. 💚")}>
         <Icon
           theme="play"
           fontSize={Themes[theme].icon.fontSize}

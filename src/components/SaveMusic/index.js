@@ -8,11 +8,7 @@ import { Icon } from "components";
 
 const SaveMusic = () => {
   return (
-    <Save
-      onClick={() => {
-        alert("ae");
-      }}
-    >
+    <Save onClick={() => alert("This function is for decoration. 💚")}>
       <Icon theme="heart" fontSize="1rem" />
     </Save>
   );
